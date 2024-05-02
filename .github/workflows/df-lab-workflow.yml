@@ -20,7 +20,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::295183774591:role/DeviceFarm-GitHubActionRole
-          aws-region: us-west-2
+          aws-region: us-east-1
 
       - name: Schedule Device Farm Automated Test
         id: RunTest
